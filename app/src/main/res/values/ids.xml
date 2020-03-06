@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="Rest" type="id" />
+    <item name="rest" type="id" />
+    <item name="edittext_Password1" type="id" />
+    <item name="edittext_CnfPassword" type="id" />
+    <item name="minus11" type="id" />
+
+</resources>

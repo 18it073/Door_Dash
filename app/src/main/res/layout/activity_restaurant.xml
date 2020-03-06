@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb1"
+    tools:context=".Restaurant">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    >
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="232dp"
+                        android:layout_marginBottom="0dp"
+                        android:src="@drawable/mcd"
+                        android:id="@+id/imgmcd"/>
+
+                    <TextView
+                        android:layout_width="221dp"
+                        android:layout_height="45dp"
+                        android:layout_alignStart="@+id/imgmcd"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="137dp"
+                        android:layout_marginTop="39dp"
+                        android:layout_marginEnd="24dp"
+                        android:layout_marginBottom="36dp"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/aclonica"
+                        android:gravity="center"
+                        android:text="McDonald's"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+
+
+                        />
+
+                    <Button
+                        android:id="@+id/buttmcd"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        />
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/transparent"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="232dp"
+                        android:layout_marginBottom="0dp"
+                        android:src="@drawable/dom"
+                        android:id="@+id/imgdom"/>
+
+                    <TextView
+                        android:layout_width="196dp"
+                        android:layout_height="31dp"
+                        android:layout_alignStart="@+id/imgdom"
+                        android:layout_alignEnd="@+id/buttdom"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="138dp"
+                        android:layout_marginTop="36dp"
+                        android:layout_marginEnd="47dp"
+                        android:layout_marginBottom="33dp"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/aclonica"
+                        android:gravity="center"
+                        android:text="Domino's"
+                        android:textColor="#000000"
+
+
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/buttdom"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/aclonica" />
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/transparent"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical"
+                android:background="@android:color/transparent"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    >
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="232dp"
+                        android:layout_marginBottom="0dp"
+                        android:src="@drawable/mm"
+                        android:id="@+id/imgmm"/>
+
+                    <TextView
+                        android:layout_width="203dp"
+                        android:layout_height="26dp"
+                        android:layout_alignStart="@+id/imgmm"
+                        android:layout_alignParentTop="true"
+
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="137dp"
+                        android:layout_marginTop="39dp"
+                        android:layout_marginEnd="42dp"
+                        android:layout_marginBottom="35dp"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/aclonica"
+                        android:gravity="center"
+
+                        android:text="Mirch Masala"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+
+
+                        />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:id="@+id/buttmm"
+                        />
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical"
+                android:background="@android:color/transparent"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    >
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="232dp"
+                        android:layout_marginBottom="0dp"
+                        android:src="@drawable/lp"
+                        android:id="@+id/imglp"/>
+
+                    <TextView
+                        android:layout_width="236dp"
+                        android:layout_height="37dp"
+                        android:layout_alignStart="@+id/imglp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="130dp"
+                        android:layout_marginTop="33dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="30dp"
+                        android:background="@android:color/transparent"
+
+                        android:fontFamily="@font/aclonica"
+                        android:gravity="center"
+                        android:text="La Pino'z"
+                        android:textColor="#000000"
+
+                        android:textSize="20dp"
+
+
+                        />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:id="@+id/buttlp"
+                        />
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

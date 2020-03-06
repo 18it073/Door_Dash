@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "286095098133",
+    "firebase_url": "https://zozo-47913.firebaseio.com",
+    "project_id": "zozo-47913",
+    "storage_bucket": "zozo-47913.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286095098133:android:08564bf8649dfa19c0691c",
+        "android_client_info": {
+          "package_name": "com.example.zozo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286095098133-e11v7kqjcmb8u19ikgpnk77c0dovvdl7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zozo",
+            "certificate_hash": "44d3289abdad843af2668f54cb742cab232854f5"
+          }
+        },
+        {
+          "client_id": "286095098133-3p0l4bfis6m03ttj5m0qhcpqg5lkt9ro.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN5f-21oQEjvhpZGrLvqdx-QdhWh-H8_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "286095098133-3p0l4bfis6m03ttj5m0qhcpqg5lkt9ro.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
